@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link href="https://github.com/X4D0" isExternal>
             <Icon as={VscGithubInverted} w={8} h={8}/>
           </Link>
-          <Link href="https://github.com/X4D0" isExternal>
+          <Link href="https://linkedin.com/in/rayhan-rahmanda" isExternal>
             <Icon as={FaLinkedin} w={8} h={8}/>
           </Link>
         </Box>
