@@ -1,4 +1,4 @@
-import { Heading, Flex, Link, Box, Spacer, Icon } from '@chakra-ui/react';
+import { HStack, Heading, Flex, Link, Box, Spacer, Icon } from '@chakra-ui/react';
 import { VscGithubInverted } from 'react-icons/vsc'
 import { FaLinkedin } from 'react-icons/fa'
 import DarkModeSwitch from '../components/DarkModeSwitch'
@@ -6,8 +6,9 @@ import DarkModeSwitch from '../components/DarkModeSwitch'
 const Navbar = () => {
 	return (
 		<Flex
-      pt="20px"
-      maxWidth="1000px"
+      mt={5}
+      mx="auto"
+      maxW="1000px"
     >
         <Box p="2">
           <Heading size="md">rayhan.</Heading>
@@ -23,6 +24,7 @@ const Navbar = () => {
         </Box>
         <Spacer />
         <DarkModeSwitch />
+        
       </Flex>
 	);
 };
