@@ -10,9 +10,11 @@ const Navbar = () => {
       mx="auto"
       maxW="1000px"
     >
-        <Box p="2">
-          <Heading size="md">rayhan.</Heading>
-        </Box>
+        <Link href="/">
+          <Box p="2">
+            <Heading size="md">rayhan.</Heading>
+          </Box>
+        </Link>
         <Spacer />
         <Box>
           <Link href="https://github.com/X4D0" isExternal>

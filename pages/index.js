@@ -81,9 +81,11 @@ export default function Home() {
           )}
         </Popover>
         </Text>
-        <Button leftIcon={<VscRocket />} mt="4" size="md" width="25%" variant="outline">
-          My Projects
-        </Button>
+        <Link href="/projects">
+          <Button leftIcon={<VscRocket />} mt="4" size="md" width="25%" variant="outline">
+            My Projects
+          </Button>
+        </Link>
       </Flex>
     </Stack>
   )
