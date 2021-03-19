@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Text, Heading, Flex, Stack, Button, Link } from '@chakra-ui/react'
-import {motion} from 'framer-motion'
 import { VscRocket } from 'react-icons/vsc'
 import {
   Popover,
